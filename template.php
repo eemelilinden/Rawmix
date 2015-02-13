@@ -40,7 +40,7 @@ require('index.php');
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 100%;"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/rawmix-logo.png" style="width: 100%;"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
