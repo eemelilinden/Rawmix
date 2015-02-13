@@ -1,3 +1,7 @@
+<?php 
+require('index.php');
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//FI" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fi" xml:lang="fi">
 <head>
@@ -60,7 +64,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
+<?php 
+require $content;
+?>
 
 <div class="phase social-media">
 	<div class="container">
