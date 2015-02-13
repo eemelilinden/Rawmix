@@ -1,0 +1,58 @@
+/**
+ * PRESENTATION STYLESHEET
+ * ----------------------------------------------------------------------------
+ */
+
+/*
+
+
+       PLEASE NOTE: 
+       ============
+
+       THIS FILE IS NOT PART OF THE *REQUIRED FONT ICON FILES* 
+       THIS FILE IS USED TO STYLE THE ICON DEMO TEMPLATE FOUND AT DEMO.HTML
+
+
+
+*/
+
+.glyphs {
+	background-color: #74f3c8;
+	color: #0e8a65;
+}
+
+.classes {
+	background-color: #33383e;
+	color: #fff;
+}
+
+.glyph {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1em;
+	margin: 0 -0.21em 3em 0;
+	padding: 1.5em 0 0 1.5em;
+	text-align: center;
+	width: 50%;
+}
+
+.glyph-item {
+	border-radius: 8px;
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1;
+	padding: 0.25em;
+	position: relative;
+}
+
+.mega {
+	font-size: 3em;
+}
+
+@media only screen and (min-width: 768px) {
+	.mega {
+		font-size: 6em;
+	}
+}
+

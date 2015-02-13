@@ -1,0 +1,53 @@
+body {
+	font-family: sans-serif, "Lato";
+	font-size: 13px;
+	margin: 0;
+	color: #343738;
+}
+a {
+	text-decoration: none;
+
+}
+.navbar-default {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background: transparent;
+	border: 0px;
+	z-index: 10;
+}
+.phase {
+	width: 100%;
+	display: table;
+	color: #fff;
+	text-align: center;
+}
+.social-media {
+	background: #3e3e3e;
+	height: 80px;
+	margin-top: 110px;
+}
+.social-media .facebook img,
+.social-media .twitter img {
+	width: 55px;
+	margin: 15px 5px 0px;
+  	filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Firefox 35+ */
+  	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  	-webkit-transition: -webkit-filter 1s ease-in-out;
+	-moz-transition: -webkit-filter 1s ease-in-out;
+	-o-transition: -webkit-filter 1s ease-in-out;
+	-ms-transition: -webkit-filter 1s ease-in-out;
+	transition: -webkit-filter 1s ease-in-out;
+}
+.social-media .facebook img:hover,
+.social-media .twitter img:hover {
+  	filter: none; /* IE6-9 */
+  	-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+.bottom {
+	background: #292a29;
+	height: 200px;
+	padding-top: 20px;
+}
