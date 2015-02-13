@@ -1,13 +1,19 @@
 body {
-	font-family: sans-serif, "Lato";
-	font-size: 13px;
 	margin: 0;
+	font-family: "Open-Sans", sans-serif;
+	font-size: 15px;
 	color: #343738;
+	font-weight: 400;
 }
-a {
+a
+a:visited,
+a:active {
 	text-decoration: none;
-
 }
+
+/**
+ * TOP & NAVBAR
+ */
 .navbar-default {
 	position: absolute;
 	top: 0;
@@ -17,11 +23,42 @@ a {
 	border: 0px;
 	z-index: 10;
 }
+#logo {
+	width: 100%;
+	max-width: 370px;
+}
+.navbar-default .navbar-right {
+	margin-top: 25px;
+	margin-right: 40px;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.navbar-right a,
+.navbar-right a:visited,
+.navbar-right a:active {
+	text-decoration: none;
+	color: #fff !important;
+}
+.navbar-right li {
+	border-radius: 15px;
+	border: 0px;
+}
+.navbar-right li:hover {
+	border: 2px solid #fff;
+}
+.navbar-right li:hover > a {
+	padding: 13px;
+}
 
+
+/**
+ *	CONTENT BACKGROUND
+ */
 .background {
 	background: url('../images/background.jpg') no-repeat;
 	background-size: cover;
-	background-position: bottom center;
+	background-position: center;
 	width: 100%;
 	height: 650px;
 	text-align: center;
@@ -33,6 +70,10 @@ a {
 }
 
 
+
+/**
+ *	BOTTOM
+ */
 .phase {
 	width: 100%;
 	display: table;
